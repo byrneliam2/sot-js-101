@@ -31,4 +31,6 @@ let CoinFlip = {
 };
 
 let myButton = document.getElementById("coinFlip");
-myButton.addEventListener("click", CoinFlip.flip());
+myButton.addEventListener("click", function () {
+    CoinFlip.flip();
+});
