@@ -1,0 +1,13 @@
+* {
+    padding: 5em;
+}
+
+button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    display: block;
+    margin: auto;
+    padding: 1em;
+    background-color: red;
+    color: white;
+}

@@ -9,6 +9,8 @@ let Greeter = {
 //     alert(Greeter.greet(name));
 // }
 
+// ----------------------------------------------------------
+
 let FavouriteShow = {
     name: "Archer",
     numSeasons: 9,
@@ -17,6 +19,8 @@ let FavouriteShow = {
         return [this.name, this.numSeasons, this.mainActor];
     }
 };
+
+// ----------------------------------------------------------
 
 let CoinFlip = {
     flip: function () {
