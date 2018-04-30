@@ -17,3 +17,18 @@ let FavouriteShow = {
         return [this.name, this.numSeasons, this.mainActor];
     }
 };
+
+let CoinFlip = {
+    flip: function () {
+        let coin = Math.random();
+        if (coin > 0.5) {
+            alert("Heads!");
+        }
+        else {
+            alert("Tails!");
+        }
+    }
+};
+
+let myButton = document.getElementById("coinFlip");
+myButton.addEventListener("click", CoinFlip.flip());
